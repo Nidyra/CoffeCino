@@ -12,7 +12,7 @@
 }
 
 #menuInfo a {
-    color: darksalmon;
+    color: rgb(233, 150, 122);
     text-decoration: none;
     border-radius: 10px;
 }
@@ -59,7 +59,8 @@ li {
 
 #coffeeInfo {
     background-color: #e9967a83;
-    padding-bottom:150px ;
+    padding-bottom:4em;
+
 }
 
 #coffees {
@@ -93,7 +94,6 @@ ul li {
 }
 
 #titleCoffee {
-    padding-bottom: 30px;
     padding-top: 40px;
     text-align: center;
 }
@@ -186,15 +186,15 @@ ul li {
     text-transform: uppercase;
 }
 
-input {
+.wrapper input {
     display: none;
 }
 
-input:checked + label {
+.wrapper input:checked + label {
     width: 600px;
 }
 
-input:checked + label .description {
+.wrapper input:checked + label .description {
     opacity: 1 !important;
     transform: translateX(0) !important;
 }
@@ -210,4 +210,47 @@ input:checked + label .description {
 }
 .card[for="c4"] {
     background-image: url(Coffee-Types/espresso.jpg);
+}
+
+#newNoticies{
+    background-image:url(img/Cappuccino-cup.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 15em;
+    text-align: right;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#userInfo{
+    display: inline-block;
+    background-color:rgb(156, 92, 1);
+    margin: 4em 5em 0px 0px;
+    padding:30px 7em 5em 8em;
+    border-radius: 15px;
+}
+
+#preencher{
+    margin-top: 3em;
+}
+
+#userInfo h2{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#userInfo h3{
+    text-align: left;
+    font-size: 25px;
+    color: rgb(243, 243, 243);
+}
+
+#userInfo input {
+    padding: 10px;
+    width: 400px;
+    text-align: left;
+    margin: 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 28px;
 }
