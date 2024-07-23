@@ -1,4 +1,5 @@
 # CoffeCcino
- Tentativa de fazer visualmente uma caféteria chamativa para o projeto
---Linguanges--
-*Uso de penas HTML E CSS
+<br>
+ Tentativa de fazer visualmente uma caféteria chamativa para o projeto <br>
+--Linguanges-- <br>
+*Uso apenas de HTML E CSS
